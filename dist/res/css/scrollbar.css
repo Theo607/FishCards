@@ -1,0 +1,23 @@
+.scroll-pane {
+    -fx-background: transparent;
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical {
+    -fx-background-color: transparent;
+    -fx-pref-width: 10px; /* slim scrollbar */
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #5bc0be; /* teal accent */
+    -fx-background-radius: 5px;
+}
+
+.scroll-bar:vertical .track {
+    -fx-background-color: #2a2f4a; /* darker track */
+    -fx-background-radius: 5px;
+}
+
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color: #77dada; /* lighter on hover */
+}
